@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/site.css">
+    <title>Cornell Bowling Club</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html"><img src="images/logo.png" alt="" class="logo"></a>
+            <a class="title" href="index.html"><p>Cornell Bowling Club</p></a>
+        </div>
+        <nav class="main_nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="hamburger">
+            ≡
+        </button>
+        <button class="close_hamburger hidden">
+            ✕
+        </button>
+    </header>
+
+    <nav class="mobile_nav hidden">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="gallery.html" class="active">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Gallery</h1>
+        <div>
+            <h2>Tournament</h2>
+
+            <div class="gallery_carousel">
+                <div class="galler_carousel_main">
+                    <button class="carousel_prev" id="tournament_prev">
+                        <img src="images/carousel_prev.png" alt="Previous Image">
+                        <img src="images/carousel_prev_hover.png" alt="Previous Image" class="hidden">
+                        <!--Left arrow for carousel, Source: Original Work-->
+                    </button>
+
+                    <div class="carousel_image_wrap">
+                        <img src="images/tournament1.jpg" alt="" class="tournament_carousel_image" id="tournament_1">
+
+                        <img src="images/tournament2.jpg" alt="" class="tournament_carousel_image hidden" id="tournament_2">
+
+                        <img src="images/tournament3.jpg" alt="" class="tournament_carousel_image hidden" id="tournament_3">
+
+                        <img src="images/tournament4.jpg" alt="" class="tournament_carousel_image hidden" id="tournament_4">
+
+                        <img src="images/tournament5.jpg" alt="" class="tournament_carousel_image hidden" id="tournament_5">
+                    </div>
+
+                    <button class="carousel_next" id="tournament_next">
+                        <img src="images/carousel_next.png" alt="Next Image">
+                        <img src="images/carousel_next_hover.png" alt="Next Image" class="hidden">
+                        <!--Right arrow for carousel, Source: Original Work-->
+                    </button>
+                </div>
+
+                <div class="galler_carousel_thum">
+                    <!--Thumbnails-->
+                    <div class="tournament_carousel_thum" id="tournament_1_thum">
+                        <img src="images/tournament1.jpg" alt="">
+                        <div class="tournament_carousel_thum_overlay overlay" id="tournament_1_thum_overlay"></div>
+                    </div>
+
+                    <div class="tournament_carousel_thum" id="tournament_2_thum">
+                        <img src="images/tournament2.jpg" alt="">
+                        <div class="tournament_carousel_thum_overlay" id="tournament_2_thum_overlay"></div>
+                    </div>
+
+                    <div class="tournament_carousel_thum" id="tournament_3_thum">
+                        <img src="images/tournament3.jpg" alt="">
+                        <div class="tournament_carousel_thum_overlay" id="tournament_3_thum_overlay"></div>
+                    </div>
+
+                    <div class="tournament_carousel_thum" id="tournament_4_thum">
+                        <img src="images/tournament4.jpg" alt="">
+                        <div class="tournament_carousel_thum_overlay" id="tournament_4_thum_overlay"></div>
+                    </div>
+
+                    <div class="tournament_carousel_thum" id="tournament_5_thum">
+                        <img src="images/tournament5.jpg" alt="">
+                        <div class="tournament_carousel_thum_overlay" id="tournament_5_thum_overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2>Team</h2>
+            <p>The Cornell Bowling Club is made up of a dedicated group of individuals who share a passion for the sport. Our team is composed of students from various backgrounds and academic disciplines, united by our love of bowling and commitment to representing Cornell University in the best possible light. We come from all over the world, bringing diverse perspectives and experiences to the team.</p>
+
+            <p>Despite our differences, we are a tight-knit group that supports one another both on and off the lanes. We value teamwork, communication, and sportsmanship, and strive to uphold these values in all aspects of our lives. Our team is led by dedicated coaches who provide us with guidance, support, and feedback to help us improve our skills and achieve our goals.</p>
+
+            <div class="gallery_carousel">
+                <div class="galler_carousel_main">
+                    <button class="carousel_prev" id="team_prev">
+                        <img src="images/carousel_prev.png" alt="Previous Image">
+                        <img src="images/carousel_prev_hover.png" alt="Previous Image" class="hidden">
+                        <!--Left arrow for carousel, Source: Original Work-->
+                    </button>
+
+                    <div class="carousel_image_wrap">
+                        <img src="images/team1.jpg" alt="" class="team_carousel_image" id="team_1">
+
+                        <img src="images/team2.jpg" alt="" class="team_carousel_image hidden" id="team_2">
+
+                        <img src="images/team3.jpg" alt="" class="team_carousel_image hidden" id="team_3">
+
+                        <img src="images/team4.jpg" alt="" class="team_carousel_image hidden" id="team_4">
+
+                        <img src="images/team5.jpg" alt="" class="team_carousel_image hidden" id="team_5">
+
+                        <img src="images/team6.jpg" alt="" class="team_carousel_image hidden" id="team_6">
+
+                        <img src="images/team7.jpg" alt="" class="team_carousel_image hidden" id="team_7">
+
+                        <img src="images/team8.jpg" alt="" class="team_carousel_image hidden" id="team_8">
+                    </div>
+
+                    <button class="carousel_next" id="team_next">
+                        <img src="images/carousel_next.png" alt="Next Image">
+                        <img src="images/carousel_next_hover.png" alt="Next Image" class="hidden">
+                        <!--Right arrow for carousel, Source: Original Work-->
+                    </button>
+                </div>
+
+                <div class="galler_carousel_thum">
+                    <!--Thumbnails-->
+                    <div class="team_carousel_thum" id="team_1_thum">
+                        <img src="images/team1.jpg" alt="">
+                        <div class="team_carousel_thum_overlay overlay" id="team_1_thum_overlay"></div>
+                    </div>
+
+                    <div class="team_carousel_thum" id="team_2_thum">
+                        <img src="images/team2.jpg" alt="">
+                        <div class="team_carousel_thum_overlay" id="team_2_thum_overlay"></div>
+                    </div>
+
+                    <div class="team_carousel_thum" id="team_3_thum">
+                        <img src="images/team3.jpg" alt="">
+                        <div class="team_carousel_thum_overlay" id="team_3_thum_overlay"></div>
+                    </div>
+
+                    <div class="team_carousel_thum" id="team_4_thum">
+                        <img src="images/team4.jpg" alt="">
+                        <div class="team_carousel_thum_overlay" id="team_4_thum_overlay"></div>
+                    </div>
+
+                    <div class="team_carousel_thum" id="team_5_thum">
+                        <img src="images/team5.jpg" alt="">
+                        <div class="team_carousel_thum_overlay" id="team_5_thum_overlay"></div>
+                    </div>
+
+                    <div class="team_carousel_thum" id="team_6_thum">
+                        <img src="images/team6.jpg" alt="">
+                        <div class="team_carousel_thum_overlay" id="team_6_thum_overlay"></div>
+                    </div>
+
+                    <div class="team_carousel_thum" id="team_7_thum">
+                        <img src="images/team7.jpg" alt="">
+                        <div class="team_carousel_thum_overlay" id="team_7_thum_overlay"></div>
+                    </div>
+
+                    <div class="team_carousel_thum" id="team_8_thum">
+                        <img src="images/team8.jpg" alt="">
+                        <div class="team_carousel_thum_overlay" id="team8_thum_overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="scripts/jquery-3.6.1.js"></script>
+    <script src="scripts/hamburger_menu.js"></script>
+    <script src="scripts/tournament_carousel.js"></script>
+    <script src="scripts/team_carousel.js"></script>
+</body>
+</html>
